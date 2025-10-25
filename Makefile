@@ -1,11 +1,11 @@
 setup:
-	@yarn
+	@npm install
 
 run:
-	@PORT=8080 yarn start
+	@PORT=8080 npm run dev
 
 build:
-	@yarn run build
+	@npm run build
 
 clean:
 	@find . -name "*.swp" -delete
